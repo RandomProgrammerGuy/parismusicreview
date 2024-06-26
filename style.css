@@ -17,7 +17,9 @@
 }
 
 .homepagelogo img {
-    width: 100%;
+    padding-top: 5vh;
+    height: 90vh;
+    width: auto;
 }
 
 .sidebar {
