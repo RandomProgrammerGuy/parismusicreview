@@ -7,12 +7,10 @@
         <meta name="description" content="Welcome to the official homepage of Paris Music Review. Find our album and song ratings, as well as our yearly music awards here.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body class="bgcolorlight nomarginpadding">
         <script src="" async defer></script>  
-
-        <!--IMPORT BOXICONS LIBRARY-->
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
         <!--THE BIG LOGO-->
         <div class="homepagelogo">
@@ -24,25 +22,26 @@
 
             <div class="logo-holder">
                 <div class="logo">
-                    <img src="assets/textlogolight.png" alt="Text-only Paris Music Review logo">
+                    <a id="logo" href="home-en.html">
+                    </a>
                 </div>
-                <box-icon name="menu-alt-right" class="menuitem" id="menubutton"></box-icon>
+                <a href=""><i class="bx bxs-menu menuitem" id="menubutton"></i></a>
             </div>
             <ul class="nav-list">
                 <li>
-                    <box-icon name="home" type="solid" class="menuitem" id="homebutton"></box-icon>
+                    <a href=""><i class="bx bxs-home menuitem" id="homebutton"></i>  Home</a>
                 </li>
                 <li>
-                    <box-icon name="playlist" type="solid" class="menuitem" id="ratingsbutton"></box-icon>
+                    <a href=""><i class="bx bxs-playlist menuitem" id="ratingsbutton""></i>  Ratings</a>
                 </li>
                 <li>
-                    <box-icon name="award" type="solid" class="menuitem" id="homebutton"></box-icon>
+                    <a href=""><i class="bx bxs-award menuitem" id="awardbutton"></i>  PMR Awards</a>
                 </li>
                 <li>
-                    <box-icon name="info-circle" type="solid" class="menuitem" id="homebutton"></box-icon>
+                    <a href=""><i class="bx bxs-info-circle menuitem" id="aboutbutton"></i>  About PMR</a>
                 </li>
                 <li>
-                    <box-icon name="envelope" type="solid" class="menuitem" id="homebutton"></box-icon>
+                    <a href=""><i class="bx bxs-envelope menuitem" id="contactbutton"></i>  Contact us</a>
                 </li>
             </ul>
         </div>

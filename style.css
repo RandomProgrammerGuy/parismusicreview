@@ -3,6 +3,8 @@
 .nomarginpadding {
     margin: 0%;
     padding: 0%;
+    position: relative;
+    overflow: hidden;
 }
 
 .bgcolorlight {
@@ -10,10 +12,84 @@
 }
 
 .homepagelogo {
-    width: 60vw;
-    height: 100vh;
+    max-width: 60vw;
+    max-height: 100vh;
 }
 
 .homepagelogo img {
     width: 100%;
+}
+
+.sidebar {
+    margin-left: 70vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 30vw;
+    background-color: #08222d;
+    padding: 6px 14px;
+}
+
+#logo {
+    transition: all 0.25s ease-in-out;
+    background: url(assets/initialslight.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-size: 150px;
+    display: flex;
+    height: 60px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#logo:hover {
+    background: url(assets/initialsblue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 150px;
+}
+
+.sidebar ul li {
+    height: 60px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+}
+
+.sidebar li {
+    color: #e6eef1;
+    padding-top: 60px;
+    font-size: 60px;
+}
+
+.sidebar li:first-child {
+    padding-top: 20px;
+}
+
+.sidebar ul li a {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+    border-radius: 20px;
+}
+
+.sidebar ul li a:visited {
+    color: #e6eef1;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    background-color: #e6eef1;
+    color: #0fa7e6;
+} 
+
+.sidebar ul li i {
+    padding-right: 20px;
 }
