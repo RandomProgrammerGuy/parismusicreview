@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nomarginpadding {
+    margin: 0%;
+    padding: 0%;
+}
+
+.bgcolorlight {
+    background-color: #e6eef1;
+}
+
+.homepagelogo {
+    width: 60vw;
+    height: 100vh;
+}
+
+.homepagelogo img {
+    width: 100%;
+}
