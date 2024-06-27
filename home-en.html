@@ -10,15 +10,21 @@
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     </head>
     <body class="bgcolorlight nomarginpadding">
-        <script src="" async defer></script>  
+        <script src="script.js" async defer></script>  
 
         <!--THE BIG LOGO-->
         <div class="homepagelogo">
             <img src="assets/logowobg.png" alt="Paris Music Review logo">
         </div>
 
-        <!--THE COOL-ISH SIDEBAR-->
-        <div class="sidebar">
+        <!--THE SIDEBAR-->
+        <div class="sidebar" id="sidebar">
+
+            <div class="expandmenubutton">
+                <button class="chevron">
+                    <i class='bx bx-chevrons-left'></i>
+                </button>
+            </div>
 
             <div class="logo-holder">
                 <div class="logo">
@@ -27,6 +33,7 @@
                 </div>
                 <a href=""><i class="bx bxs-menu menuitem" id="menubutton"></i></a>
             </div>
+
             <ul class="nav-list">
                 <li>
                     <a href="home-en.html" style="color: #0fa7e6;"><i class="bx bxs-home menuitem" id="homebutton"></i>  Home</a>
