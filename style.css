@@ -238,6 +238,10 @@
         font-weight: 500;
         padding-left: 7vw;
     }
+
+    .sidebaractive ul li a {
+        color: #e6eef1;
+    }
     
     .sidebaractive li {
         color: #e6eef1;
