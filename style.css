@@ -1,27 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-.nomarginpadding {
-    margin: 0%;
-    padding: 0%;
-    position: relative;
-    overflow: hidden;
-}
-
-.bgcolorlight {
-    background-color: #e6eef1;
-}
-
-.homepagelogo {
-    max-width: 60vw;
-    max-height: 100vh;
-}
-
-.homepagelogo img {
-    padding-top: 5vh;
-    height: 90vh;
-    width: auto;
-}
-
 .sidebar {
     margin-left: 65vw;
     position: fixed;
@@ -75,6 +53,7 @@
 }
 
 .sidebar ul li a {
+    color: #e6eef1;
     padding: 2.5vh;
     display: flex;
     align-items: center;
@@ -129,6 +108,50 @@
     color: #0fa7e6;
 }
 
+.nomarginpadding {
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+    overflow: hidden;
+}
+
+.bgcolorlight {
+    background-color: #e6eef1;
+}
+
+.homepagelogo {
+    max-width: 60vw;
+    max-height: 100vh;
+}
+
+.homepagelogo img {
+    padding-top: 5vh;
+    height: 90vh;
+    width: auto;
+}
+
+.textblock {
+    font-family: 'Raleway', sans-serif;
+    background-color: #e6eef1;
+}
+
+.textblock h1 {
+    font-weight: 800;
+}
+
+.textblock h2 {
+    font-weight: 700;
+}
+
+.textblock h1, .textblock h2 {
+    color: #08222d;
+}
+
+.textblock p {
+    color: #000b10;
+    font-weight: 300;
+}
+
 @media only screen and (min-width: 1100px) {
     .sidebar {
         margin-left: 65vw;
@@ -144,7 +167,29 @@
     .expandmenubutton {
         display: none;
     }
-    
+
+    .textblock {
+        max-width: 60vw;
+        margin-left: 3vw;
+        margin-right: 6vw;
+        margin-top: 20vh;
+    } 
+
+    .textblock h1 {
+        font-size: 5vw;
+        margin: 0;
+    }
+
+    .textblock h2 {
+        font-size: 3vw;
+        margin: 0;
+    }
+
+    .textblock p {
+        font-size: 1.7vw;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 1099px) {
@@ -230,6 +275,13 @@
     .sidebaractive ul li, .sidebaractive #logo {
         display: flex;
     }
+
+    .textblock {
+        max-width: calc(100vw - 75px - 3vw);
+        margin-left: 3vw;
+        margin-right: 6vw;
+        margin-top: 20vh;
+    } 
 }
 
 @media only screen and (max-width: 800px) {
