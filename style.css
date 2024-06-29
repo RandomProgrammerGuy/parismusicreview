@@ -9,6 +9,7 @@
     width: 35vw;
     background-color: #08222d;
     padding: 6px 14px;
+    overflow: hidden;
 }
 
 #logo {
@@ -112,7 +113,6 @@
     margin: 0%;
     padding: 0%;
     position: relative;
-    overflow: hidden;
 }
 
 .bgcolorlight {
@@ -147,9 +147,11 @@
     color: #08222d;
 }
 
-.textblock p {
+.textblock .text {
     color: #000b10;
     font-weight: 300;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 @media only screen and (min-width: 1100px) {
@@ -185,7 +187,7 @@
         margin: 0;
     }
 
-    .textblock p {
+    .textblock .text {
         font-size: 1.7vw;
         margin-top: 20px;
         margin-bottom: 20px;
