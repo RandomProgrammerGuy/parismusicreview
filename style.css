@@ -163,6 +163,7 @@
 
 .personcard .personphoto {
     max-width: 20%;
+    height: auto;
     border-radius: 200px;
     margin-right: 20px;
 }
@@ -178,6 +179,55 @@
     margin-top: 5px;
     font-weight: 400;
     color: #08222d;
+}
+
+.contactform {
+    margin-top: 50px;
+}
+
+.contactform label {
+    color: #08222d;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.contactform .contactfield {
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: 30px;
+    resize: vertical;
+    background-color: #e6eef1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #08222d;
+    margin-bottom: 30px;
+}
+
+.contactform .contactfield:focus {
+    border-bottom: 4px solid #0fa7e6;
+}
+
+.contactform .sendbutton {
+    background-color: #08222d;
+    border: none;
+    border-radius: 200px;
+    height: 50px;
+    width: 150px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #e6eef1;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.contactform .sendbutton:hover {
+    background-color: #0fa7e6;
+    color: #08222d;
+}
+
+.contactform .sendbutton:active {
+    background-color: #63cbf8
 }
 
 
@@ -225,6 +275,14 @@
     }
     
     .personcard .persondesc {
+        font-size: 1.5vw;
+    }
+
+    .contactform label {
+        font-size: 1.5vw;
+    }
+
+    .contactform .sendbutton {
         font-size: 1.5vw;
     }
 }
