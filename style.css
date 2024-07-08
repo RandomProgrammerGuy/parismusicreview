@@ -249,7 +249,6 @@
 }
 
 .cardbox .card:hover {
-    box-shadow: 0px 5px 2px rgb(106, 106, 106);
     background-color: #000b10;
 }
 
