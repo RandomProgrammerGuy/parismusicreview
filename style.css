@@ -315,6 +315,52 @@
     font-weight: 200;
 }
 
+.article {
+    margin-bottom: 30px;
+    display: flex;
+    width: 95%;
+    border-radius: 40px;
+    background-color: #cfd6d9;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.article:hover {
+    cursor: pointer;
+    background-color: #bfc5c8;
+}
+
+.articleimage {
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.articleinfos {
+    margin-left: 20px;
+}
+
+.articletitle {
+    font-weight: 500;
+}
+
+.articleinfo {
+    display: flex;
+}
+
+.articleauthor {
+    margin-left: 20px;
+}
+
+.articledate, .articleauthor {
+    font-weight: 500;
+}
+
+.articleprevtext {
+    font-weight: 200;
+}
+
 
 @media only screen and (min-width: 1100px) {
     .sidebar {
@@ -340,6 +386,10 @@
     } 
 
     .textblock .featuredtitle {
+        font-size: 3vw;
+    }
+
+    .textblock .articletitle {
         font-size: 3vw;
     }
 
@@ -391,6 +441,10 @@
     }
 
     .textblock .featuredprevtext {
+        font-size: 1.1vw;
+    }
+
+    .textblock .articleprevtext {
         font-size: 1.1vw;
     }
 }
