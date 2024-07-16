@@ -202,6 +202,9 @@
     border-right: none;
     border-bottom: 4px solid #08222d;
     margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+    font-weight: 200;
 }
 
 .contactform .contactfield:focus {
@@ -457,6 +460,10 @@
     }
     
     .personcard .persondesc {
+        font-size: 1.5vw;
+    }
+
+    .contactfield {
         font-size: 1.5vw;
     }
 
